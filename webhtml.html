@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="webcss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Welcome Page</title>
+</head>
+<body>
+    <div id="sectionhome" class="d-flex justify-content-center" >
+        <div class="backgrounddiv d-flex flex-column justify-content-center">
+            <h1 id="myh1" class="first_page_main_heading">Who are you?</h1>
+            <label for="mytext">Username</label>
+            <input id="mytext" placeholder="Enter your name" class="main_page_nameenter"><br>
+            <label for="myage">Birth Year</label>
+            <input id="myage" placeholder="Enter your age" class="main_page_nameenter"><br>
+            <button id="mybtn" class="btn btn-primary">Show</button>
+            <h2 id="myh2" class="first_page_main_heading"></h2>
+            <div class="d-flex flex-column justify-content-between">
+                <button id="incre" class=" btns_main">increment</button><br>
+                <button id="reset" class="btns_main">reset</button><br>
+                <button id="decre" class="btns_main">decrement</button><br>
+            </div>
+            <h3 id="myh3" class="first_page_main_heading"></h3>
+            <button id="ran" class="btns_main">choose a number</button><br>
+            
+        </div>
+        <div class="backgrounddiv d-flex flex-column justify-content-center " >
+            <div>
+                <label for="subscribe" class="first_page_main_heading">subscribe</label>
+                <input id="subscribe" type="checkbox"><br>
+                <label for="PayPal" class="first_page_main_heading">paypal</label>
+                <input id="PayPal" type="radio" name="PaymentType">
+                <label for="MaterCard" class="first_page_main_heading" >mastercard</label>
+                <input id="MasterCard" type="radio" name="PaymentType">
+                <label for="UPI" class="first_page_main_heading" >upi</label>
+                <input id="UPI" type="radio" name="PaymentType"><br>
+                <label id = "Paymentlabel" for="payment"></label>
+                <input id="payment" placehsolder="Enter number" class="main_page_nameenter"><br><br>
+                <button id="mysubmit" class="btn btn-primary">Show</button>
+                <h5 id="myh5" class="first_page_main_heading"></h5>
+                
+            </div>
+        </div>
+        <div class="backgrounddiv d-flex flex-column justify-content-center " >
+            <div>
+                <h6 class="first_page_main_heading">Temperature Convertor</h6>
+                <div style="text-align: left;">
+                    <input id="celsius" type="radio" name="units">
+                    <label for="celsius" class="first_page_main_heading">celsius</label><br>
+                    <input id="fahrenheit" type="radio" name="units">
+                    <label for="fahrenheit" class="first_page_main_heading">fahrenheit</label><br>
+                </div>
+                <div style="text-align: center;">
+                    <label id="templabel" for="temp" ></label>
+                    <input id="temp" class="main_page_nameenter"><br><br>
+                    <button id="convert" class="btn btn-primary">Convert</button><br>
+                </div>
+                <h6 id="ans" class="first_page_main_heading"></h6>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="webjs.js"></script>
+</body>
+</html>
